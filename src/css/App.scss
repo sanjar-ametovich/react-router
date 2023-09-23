@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.app h2{
+    padding: 30px 0;
+}
+.simpson{
+    box-shadow: 0 0 5px 0 #000;
+    margin: 10px;
+}
+.simpson a{
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    &:hover{
+        background: gray;
+    }
+    color: black;
+}
+.simpson li a{
+    text-decoration: none;
+    color: black;
+}
+.back a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    color: black;
+}
+.actors{
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+.actors-block{
+    h1{
+        padding: 30px 0;
+    }
+    &-item{
+        box-shadow: 0 0 5px 0 #000;
+        margin: 10px;
+        a{
+            padding: 20px;
+            list-style: none;
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            color: black;
+            &:hover{
+                background: gray;
+            }
+        }
+        li{
+            list-style: none;
+        }
+    }
+}
+
+.inner-actors{
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 0;
+    a{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        background-color: transparent;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        color: black;
+    }
+    h1{
+        padding: 30px 0;
+    }
+    &-block{
+        box-shadow: 0 0 5px 0 #000;
+        margin: 10px;
+        h3,p{
+            padding: 15px;
+        }
+    }
+}
